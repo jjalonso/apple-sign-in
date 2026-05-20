@@ -1,5 +1,6 @@
 # node files
-dist/
+# dist/ is committed in this fork so consumers don't need to run the build
+# (the prepare script is unreliable on pnpm CI — see commit fixing that)
 node_modules/
 
 # iOS files
